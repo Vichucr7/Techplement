@@ -27,4 +27,4 @@ while generator:
     print(f"Generated Password : {password}")
     print()
     
-    generator = input("Do you want to create another password ? (y/n) : ").lower == "y"
+    generator = input("Do you want to create another password ? (y/n) : ").lower() == "y"
